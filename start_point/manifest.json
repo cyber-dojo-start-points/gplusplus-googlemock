@@ -1,5 +1,5 @@
 {
-  "image_name": "cyberdojofoundation/gpp_googlemock:3863482",
+  "image_name": "cyberdojofoundation/gpp_googlemock:129f26f",
   "display_name": "C++ (g++), GoogleMock",
   "visible_filenames": [
     "hiker.tests.cpp",
