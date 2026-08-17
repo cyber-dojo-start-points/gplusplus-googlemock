@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:a8070ce",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:6e0bef6",
   "display_name": "C++ (g++ 15.2.0), GoogleMock 1.17.0",
   "language": [
     "C++ (g++)",
@@ -20,6 +20,7 @@
     "makefile",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".cpp",
     ".hpp",
