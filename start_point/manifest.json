@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:6e0bef6",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:706b6f4",
   "display_name": "C++ (g++ 15.2.0), GoogleMock 1.17.0",
   "language": [
     "C++ (g++)",
