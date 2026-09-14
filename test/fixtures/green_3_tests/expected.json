@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 30,
+  "match_counts": {
+    "^\\[==========\\] Running 3 tests from 1 test suite\\.$": 1,
+    "^\\[       OK \\] Hiker\\.": 3,
+    "^\\[  PASSED  \\] 3 tests\\.$": 1,
+    "^\\[  FAILED  \\] ": 0
+  }
+}

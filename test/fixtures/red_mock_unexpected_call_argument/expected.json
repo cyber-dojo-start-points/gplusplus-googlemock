@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^Unexpected mock function call - returning directly\\.$": 1,
+    "^Google Mock tried the following 1 expectation, but it didn't match:$": 1,
+    "^  Expected arg #0: is equal to \"Hiker::answer\\(\\)\"$": 1,
+    "^           Actual: \"Hiker::the_answer\\(\\)\"$": 1,
+    "^           Actual: never called - unsatisfied and active$": 2,
+    "^\\[  FAILED  \\] Hiker\\.Life_the_universe_and_everything \\([0-9]+ ms\\)$": 1,
+    "^\\[  PASSED  \\] 0 tests\\.$": 1,
+    "^ 1 FAILED TEST$": 1
+  }
+}

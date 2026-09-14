@@ -1,0 +1,7 @@
+{
+  "matches": [ "^hiker\\.cpp:[0-9]+:[0-9]+: error: 'class Logger' has no member named 'lgo'; did you mean 'log'\\?$" ],
+  "match_counts": {
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: hiker\\.o\\] Error 1$": 1,
+    "^\\[==========\\] Running ": 0
+  }
+}

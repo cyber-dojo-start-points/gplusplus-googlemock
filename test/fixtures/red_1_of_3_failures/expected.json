@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^\\[==========\\] Running 3 tests from 1 test suite\\.$": 1,
+    "^\\[       OK \\] Hiker\\.": 2,
+    "^\\[  FAILED  \\] Hiker\\.Life_the_universe_and_everything \\([0-9]+ ms\\)$": 1,
+    "^\\[  PASSED  \\] 2 tests\\.$": 1,
+    "^\\[  FAILED  \\] 1 test, listed below:$": 1,
+    "^ 1 FAILED TEST$": 1
+  }
+}

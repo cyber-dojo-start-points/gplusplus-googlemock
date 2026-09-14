@@ -1,0 +1,7 @@
+{
+  "matches": [ "^hiker\\.tests\\.cpp:[0-9]+:[0-9]+: error: unterminated argument list invoking macro 'ASSERT_THAT'$" ],
+  "match_counts": {
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: hiker\\.tests\\.o\\] Error 1$": 1,
+    "^\\[==========\\] Running ": 0
+  }
+}

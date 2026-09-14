@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^\\[==========\\] Running 2 tests from 1 test suite\\.$": 1,
+    "^\\[ RUN      \\] Hiker\\.": 1,
+    "Segmentation fault": 1,
+    "^\\[  PASSED  \\] ": 0,
+    "^\\[  FAILED  \\] ": 0
+  }
+}

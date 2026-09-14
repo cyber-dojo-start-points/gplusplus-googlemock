@@ -1,0 +1,8 @@
+{
+  "matches": [ "undefined reference to .testing::UnitTest::Run\\(\\).$" ],
+  "match_counts": {
+    "^collect2: error: ld returned 1 exit status$": 1,
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: test\\] Error 1$": 1,
+    "^\\[==========\\] Running ": 0
+  }
+}

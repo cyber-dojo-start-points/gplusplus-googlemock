@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 25,
+  "match_counts": {
+    "^\\[==========\\] Running 1 test from 1 test suite\\.$": 1,
+    "^\\[       OK \\] FizzBuzz\\.Life_the_universe_and_everything \\([0-9]+ ms\\)$": 1,
+    "^\\[  PASSED  \\] 1 test\\.$": 1,
+    "Hiker": 0
+  }
+}

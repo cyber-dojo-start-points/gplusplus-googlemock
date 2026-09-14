@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^\\[==========\\] Running 2 tests from 2 test suites\\.$": 1,
+    "^\\[       OK \\] Hiker\\.Life_the_universe_and_everything \\([0-9]+ ms\\)$": 1,
+    "^\\[  FAILED  \\] AnswerSize\\.The_answer_is_three_digits_long \\([0-9]+ ms\\)$": 1,
+    "^\\[  PASSED  \\] 1 test\\.$": 1,
+    "^ 1 FAILED TEST$": 1
+  }
+}

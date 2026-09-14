@@ -1,0 +1,7 @@
+{
+  "matches": [ "^checksum\\.cpp:[0-9]+:[0-9]+: error: expected ';' before '\\}' token$" ],
+  "match_counts": {
+    "^make: \\*\\*\\* \\[makefile:[0-9]+: checksum\\.o\\] Error 1$": 1,
+    "^\\[==========\\] Running ": 0
+  }
+}

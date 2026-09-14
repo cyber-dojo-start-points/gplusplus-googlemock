@@ -1,0 +1,9 @@
+{
+  "matches": [ "^debug: i is 0, total is 0$" ],
+  "match_counts": {
+    "^\\[ RUN      \\] Hiker\\.Life_the_universe_and_everything$": 1,
+    "^\\[  PASSED  \\] ": 0,
+    "^\\[  FAILED  \\] ": 0
+  },
+  "truncated": true
+}

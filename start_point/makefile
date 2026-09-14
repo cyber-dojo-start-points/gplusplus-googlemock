@@ -11,7 +11,8 @@ CXXFLAGS += -Wpedantic -Wall -Wextra
 # here is waiting on how fast the code runs, and optimising it costs more time
 # in the compiler than it ever gives back.
 CXXFLAGS += -O0
-CXXFLAGS += -fprofile-arcs -ftest-coverage
+COVERAGE_FLAGS += -fprofile-arcs -ftest-coverage
+CXXFLAGS += $(COVERAGE_FLAGS)
 
 # The image holds a precompiled <gmock/gmock.h>, and reading it back is a great
 # deal quicker than parsing the header again on every [test] press. gcc only
@@ -45,5 +46,8 @@ test: $(OBJ_FILES) $(COMPILED_HPP_FILES)
 # are #included from other files and thus have a large span
 # of influence (unlike .cpp files which are not #included)
 
+# hiker.hpp compiled here and hiker.cpp compiled above both claim hiker.gcno.
+# The header holds no code to measure, so leaving coverage out of this compile
+# is what keeps the real coverage data intact.
 %.compiled_hpp: %.hpp
-	@$(CXX) -x c++ $(CXXFLAGS) -c -o $@ $<
+	@$(CXX) -x c++ $(filter-out $(COVERAGE_FLAGS),$(CXXFLAGS)) -c -o $@ $<

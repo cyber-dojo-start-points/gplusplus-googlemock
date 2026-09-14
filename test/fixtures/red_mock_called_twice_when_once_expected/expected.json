@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^Mock function called more times than expected - returning directly\\.$": 1,
+    "^         Expected: to be called once$": 1,
+    "^           Actual: called twice - over-saturated and active$": 1,
+    "^\\[  FAILED  \\] Hiker\\.Life_the_universe_and_everything \\([0-9]+ ms\\)$": 1,
+    "^\\[  PASSED  \\] 0 tests\\.$": 1,
+    "^ 1 FAILED TEST$": 1
+  }
+}
