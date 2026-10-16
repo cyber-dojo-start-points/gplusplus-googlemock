@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:fd0f994",
-  "display_name": "C++ (g++ 15.2.0), GoogleMock 1.17.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_googlemock:2248d3d@sha256:c48be46d4bf74aef56b02f6a59927074e49d4619684418c62a447d2706e8d9d9",
+  "display_name": "C++ (g++ 16.2.0), GoogleMock 1.18.0",
   "language": [
     "C++ (g++)",
-    "15.2.0"
+    "16.2.0"
   ],
   "test_framework": [
     "GoogleMock",
-    "1.17.0"
+    "1.18.0"
   ],
   "visible_filenames": [
     "hiker.tests.cpp",
